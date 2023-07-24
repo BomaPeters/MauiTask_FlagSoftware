@@ -323,3 +323,4 @@ C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\De
 C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Xamarin.Essentials.dll

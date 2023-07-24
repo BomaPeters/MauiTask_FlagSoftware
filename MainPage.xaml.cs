@@ -19,7 +19,8 @@ public partial class MainPage : ContentPage
 
 	private  async void LoadData()
 	{
-		try { 
+		try {
+        
         HttpClient	client =new HttpClient();//Create Httpclient
 		HttpResponseMessage response= await client.GetAsync(apiUrl);//retrieves response with GET VERB
 	
@@ -34,7 +35,14 @@ public partial class MainPage : ContentPage
 			}
 
 			productListView.ItemsSource= productsList;
-		}
+            }
+            else
+            {
+                await DisplayAlert("Error", "The API response was not successful", "OK");
+            }
+
+
+
         }
         catch (Exception ex)
         {
