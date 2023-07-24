@@ -5,7 +5,7 @@
 
     <ScrollView>
         <StackLayout Padding="15">
-            <ListView x:Name="productListView">
+            <ListView x:Name="productListView"  ItemTapped="productListView_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

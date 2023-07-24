@@ -1,6 +1,7 @@
 ﻿using MauiTask_FlagSoftware.Models;
 using System.Text.Json.Serialization;
 using Newtonsoft.Json;
+using MauiTask_FlagSoftware.Views;
 namespace MauiTask_FlagSoftware;
 
 public partial class MainPage : ContentPage
@@ -10,14 +11,16 @@ public partial class MainPage : ContentPage
     public MainPage()
 	{
 		InitializeComponent();
-		LoadData();
+        BindingContext = this;
+        LoadData();
 	}
 
 	List<Product> productsList = new List<Product>();
 
 	private  async void LoadData()
 	{
-	HttpClient	client =new HttpClient();//Create Httpclient
+		try { 
+        HttpClient	client =new HttpClient();//Create Httpclient
 		HttpResponseMessage response= await client.GetAsync(apiUrl);//retrieves response with GET VERB
 	
 		if (response.IsSuccessStatusCode)
@@ -32,8 +35,25 @@ public partial class MainPage : ContentPage
 
 			productListView.ItemsSource= productsList;
 		}
-	
-	}
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Error", ex.Message.ToString(), "OK");
+        }
+    }
 
+    private  async void productListView_ItemTapped(object sender, ItemTappedEventArgs e)
+    {
+		try { 
+        if (e.Item is Product selectedProduct)
+        {
+            await Navigation.PushAsync(new ProductDetailsPage { BindingContext = selectedProduct });
+        }
+           ((ListView)sender).SelectedItem = null;
+        }catch (Exception ex)
+        {
+            await DisplayAlert("Error", ex.Message.ToString(), "OK");
+        }
+    }
 }
 
