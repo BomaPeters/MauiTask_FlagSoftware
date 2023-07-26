@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-24T15:19:39.252</Modified>
+      <Modified>2023-07-25T21:17:51.463</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-07-24T15:19:32.285</Modified>
+      <Modified>2023-07-25T21:17:38.699</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiTask_FlagSoftware.runtimeconfig.json">
       <PackagePath>MauiTask_FlagSoftware.runtimeconfig.json</PackagePath>
-      <Modified>2023-07-24T15:19:29.146</Modified>
+      <Modified>2023-07-25T17:52:56.546</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiTask_FlagSoftware.dll">
       <PackagePath>MauiTask_FlagSoftware.dll</PackagePath>
-      <Modified>2023-07-24T15:19:13.570</Modified>
+      <Modified>2023-07-25T21:15:53.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiTask_FlagSoftware.exe</PackagePath>
-      <Modified>2023-07-24T15:19:13.981</Modified>
+      <Modified>2023-07-25T21:15:54.508</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -928,7 +928,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiTask_FlagSoftware.deps.json">
       <PackagePath>MauiTask_FlagSoftware.deps.json</PackagePath>
-      <Modified>2023-07-24T15:19:38.109</Modified>
+      <Modified>2023-07-25T21:17:48.494</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -948,23 +948,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-07-24T11:29:20.419</Modified>
+      <Modified>2023-07-24T18:57:29.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-07-24T11:29:20.454</Modified>
+      <Modified>2023-07-24T18:57:29.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-07-24T11:29:20.491</Modified>
+      <Modified>2023-07-24T18:57:29.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-07-24T11:29:20.551</Modified>
+      <Modified>2023-07-24T18:57:29.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-07-24T11:29:20.783</Modified>
+      <Modified>2023-07-24T18:57:29.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -976,207 +976,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-07-24T11:29:21.285</Modified>
+      <Modified>2023-07-24T18:57:29.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.877</Modified>
+      <Modified>2023-07-24T18:57:30.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.910</Modified>
+      <Modified>2023-07-24T18:57:30.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.941</Modified>
+      <Modified>2023-07-24T18:57:30.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.977</Modified>
+      <Modified>2023-07-24T18:57:30.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-07-24T11:29:22.100</Modified>
+      <Modified>2023-07-24T18:57:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.425</Modified>
+      <Modified>2023-07-24T18:57:29.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.430</Modified>
+      <Modified>2023-07-24T18:57:29.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.453</Modified>
+      <Modified>2023-07-24T18:57:29.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.435</Modified>
+      <Modified>2023-07-24T18:57:29.969</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.441</Modified>
+      <Modified>2023-07-24T18:57:29.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.389</Modified>
+      <Modified>2023-07-24T18:57:29.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.395</Modified>
+      <Modified>2023-07-24T18:57:29.921</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.419</Modified>
+      <Modified>2023-07-24T18:57:29.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.401</Modified>
+      <Modified>2023-07-24T18:57:29.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.406</Modified>
+      <Modified>2023-07-24T18:57:29.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.311</Modified>
+      <Modified>2023-07-24T18:57:29.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.321</Modified>
+      <Modified>2023-07-24T18:57:29.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.332</Modified>
+      <Modified>2023-07-24T18:57:29.845</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.338</Modified>
+      <Modified>2023-07-24T18:57:29.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.348</Modified>
+      <Modified>2023-07-24T18:57:29.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.354</Modified>
+      <Modified>2023-07-24T18:57:29.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.360</Modified>
+      <Modified>2023-07-24T18:57:29.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.384</Modified>
+      <Modified>2023-07-24T18:57:29.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.365</Modified>
+      <Modified>2023-07-24T18:57:29.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.371</Modified>
+      <Modified>2023-07-24T18:57:29.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.542</Modified>
+      <Modified>2023-07-24T18:57:30.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.555</Modified>
+      <Modified>2023-07-24T18:57:30.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.567</Modified>
+      <Modified>2023-07-24T18:57:30.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.593</Modified>
+      <Modified>2023-07-24T18:57:30.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.627</Modified>
+      <Modified>2023-07-24T18:57:30.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.492</Modified>
+      <Modified>2023-07-24T18:57:30.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.498</Modified>
+      <Modified>2023-07-24T18:57:30.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.506</Modified>
+      <Modified>2023-07-24T18:57:30.056</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.515</Modified>
+      <Modified>2023-07-24T18:57:30.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.530</Modified>
+      <Modified>2023-07-24T18:57:30.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.459</Modified>
+      <Modified>2023-07-24T18:57:29.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.465</Modified>
+      <Modified>2023-07-24T18:57:30.005</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.470</Modified>
+      <Modified>2023-07-24T18:57:30.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.477</Modified>
+      <Modified>2023-07-24T18:57:30.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.487</Modified>
+      <Modified>2023-07-24T18:57:30.031</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.651</Modified>
+      <Modified>2023-07-24T18:57:30.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.672</Modified>
+      <Modified>2023-07-24T18:57:30.199</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.708</Modified>
+      <Modified>2023-07-24T18:57:30.226</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.754</Modified>
+      <Modified>2023-07-24T18:57:30.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.857</Modified>
+      <Modified>2023-07-24T18:57:30.339</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.542</Modified>
+      <Modified>2023-07-24T18:57:29.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.569</Modified>
+      <Modified>2023-07-24T18:57:29.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.633</Modified>
+      <Modified>2023-07-24T18:57:29.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.682</Modified>
+      <Modified>2023-07-24T18:57:29.967</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-07-24T11:29:21.824</Modified>
+      <Modified>2023-07-24T18:57:30.072</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

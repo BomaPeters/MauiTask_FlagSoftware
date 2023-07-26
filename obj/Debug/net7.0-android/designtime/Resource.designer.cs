@@ -272,6 +272,7 @@ namespace MauiTask_FlagSoftware
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::MauiTask_FlagSoftware.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::MauiTask_FlagSoftware.Resource.Styleable.GradientColor_android_type;
 			global::Xamarin.Essentials.Resource.Xml.image_share_filepaths = global::MauiTask_FlagSoftware.Resource.Xml.image_share_filepaths;
+			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::MauiTask_FlagSoftware.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 		}
 		
 		public partial class Animation
@@ -22527,6 +22528,9 @@ namespace MauiTask_FlagSoftware
 			
 			// aapt resource value: 0x7F120001
 			public const int microsoft_maui_essentials_fileprovider_file_paths = 2131886081;
+			
+			// aapt resource value: 0x7F120002
+			public const int xamarin_essentials_fileprovider_file_paths = 2131886082;
 			
 			static Xml()
 			{

@@ -258,3 +258,4 @@ C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\De
 C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\MauiTask_FlagSoftware.pdb
 C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\MauiTask_FlagSoftware.genruntimeconfig.cache
 C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\MauiTask_FlagSoftware.dll
+C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Xamarin.Essentials.dll
