@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-25T21:17:51.463</Modified>
+      <Modified>2023-07-27T09:41:24.482</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-07-25T21:17:38.699</Modified>
+      <Modified>2023-07-27T09:41:23.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiTask_FlagSoftware.runtimeconfig.json">
       <PackagePath>MauiTask_FlagSoftware.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiTask_FlagSoftware.dll">
       <PackagePath>MauiTask_FlagSoftware.dll</PackagePath>
-      <Modified>2023-07-25T21:15:53.288</Modified>
+      <Modified>2023-07-27T09:41:21.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiTask_FlagSoftware.exe</PackagePath>
-      <Modified>2023-07-25T21:15:54.508</Modified>
+      <Modified>2023-07-27T09:41:21.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -928,7 +928,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Obmints\source\repos\MauiTask_FlagSoftware\MauiTask_FlagSoftware\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiTask_FlagSoftware.deps.json">
       <PackagePath>MauiTask_FlagSoftware.deps.json</PackagePath>
-      <Modified>2023-07-25T21:17:48.494</Modified>
+      <Modified>2023-07-27T09:41:24.170</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

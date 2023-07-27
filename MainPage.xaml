@@ -7,18 +7,8 @@
         <StackLayout Padding="15">
     
             <Picker x:Name="picker"
-        Title="Select Category">
-            <Picker.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>smartphones</x:String>
-                    <x:String>laptops</x:String>
-                    <x:String>fragrances</x:String>
-                    <x:String>skincare</x:String>
-                    <x:String>groceries</x:String>
-                    <x:String>furniture</x:String>
-                    <x:String>tops</x:String>
-                </x:Array>
-            </Picker.ItemsSource>
+        Title="Select Category" SelectedItem="{Binding SelectedCategory}" SelectedIndexChanged="picker_SelectedIndexChanged" ItemsSource="{Binding Categories}">
+           
         </Picker>
         <ListView x:Name="productListView"  ItemsSource="{Binding ProductList}" ItemTapped="productListView_ItemTapped">
                 <ListView.ItemTemplate >

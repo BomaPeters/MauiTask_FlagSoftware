@@ -2,6 +2,7 @@
 using MauiTask_FlagSoftware.Services;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -12,63 +13,102 @@ namespace MauiTask_FlagSoftware.ViewModels
 {
  public class MainPageViewModel:INotifyPropertyChanged
     {
-        private List<Product> productsList;
+        private ObservableCollection<Product> productsList;
 
-      
 
-        public List<Product> ProductList {
-            get
-            {
-                return productsList;
-            } 
-            set {
-                productsList = value;
-                OnPropertyChanged();
-            } }
-        public event PropertyChangedEventHandler PropertyChanged;
-     
-        //protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        //{
-        //    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        //}
+        private List<Product> _originalProductList;
+        private string _selectedCategory;
+        private ObservableCollection<Product> _sortedProductList;
 
-        void OnPropertyChanged( string name=null)
+
+        public ObservableCollection<string> CategoryItems { get; set; } = new ObservableCollection<string>();
+
+        public MainPageViewModel()
         {
-            PropertyChanged?.Invoke( this, new PropertyChangedEventArgs( name ) );
-        }
-        public MainPageViewModel() {
-          
-             if (Connectivity.NetworkAccess==NetworkAccess.Internet)
+
+            if (Connectivity.NetworkAccess == NetworkAccess.Internet)
             {
-             LoadData();
+                LoadData();
+                SortByCategoryCommand = new Command(SortProductList);
             }
             else
             {
                 Application.Current.MainPage.DisplayAlert("Error", "Please checked your internet connection", "OK");
             }
         }
-         private async Task  LoadData()
+       
+        public ObservableCollection<string> Categories { get; set; } = new ObservableCollection<string>();
+
+        public ObservableCollection<Product> ProductList
         {
-            try
+            get => _sortedProductList;
+            set
             {
-                var productService = new ProductService();
-                ProductList = await productService.GetProductAsync();
+                _sortedProductList = value;
+                OnPropertyChanged(nameof(ProductList));
             }
-            catch(Exception ex) {
-              await  Application.Current.MainPage.DisplayAlert("Error", ex.Message.ToString(), "OK");
-            }
-            
         }
-        public async Task<bool> IsInternetConnected()
+
+        public string SelectedCategory
         {
-            if (Connectivity.NetworkAccess == NetworkAccess.None)
+            get => _selectedCategory;
+            set
             {
-                return false;
+                _selectedCategory = value;
+                SortByCategoryCommand.Execute(null);
+            }
+        }
+
+        public Command SortByCategoryCommand { get; }
+        private async void LoadData()
+        {
+            try { 
+            // Load data and store the original list
+            var productService = new ProductService();
+
+           // productsList= 
+            _originalProductList = await productService.GetProductAsync(); ;
+            ProductList = new ObservableCollection<Product>(_originalProductList);
+
+            // Populate the categories for the Picker
+            foreach (var category in _originalProductList.Select(p => p.category).Distinct())
+            {
+                Categories.Add(category);
+            }
+            }
+            catch (Exception ex)
+            {
+                await Application.Current.MainPage.DisplayAlert("Error", ex.Message.ToString(), "OK");
+            }
+        }
+
+        private void SortProductList()
+        {
+            // Filter the original list based on the selected category
+            if (!string.IsNullOrEmpty(SelectedCategory))
+            {
+                var filteredList = _originalProductList.Where(p => p.category == SelectedCategory).ToList();
+                ProductList = new ObservableCollection<Product>(filteredList);
             }
             else
             {
-                return true;
+                // If no category is selected, display the original unsorted list
+                ProductList = new ObservableCollection<Product>(_originalProductList);
             }
         }
+
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+       
+
+        
+        
+      
     }
 }

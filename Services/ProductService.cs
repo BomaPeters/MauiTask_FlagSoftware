@@ -6,14 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 using MauiTask_FlagSoftware.Models;
 using Newtonsoft.Json;
-
+using System.Collections.ObjectModel;
 
 namespace MauiTask_FlagSoftware.Services
 {
    public class ProductService
     {
-        private const string apiUrl = "https://dummyjson.com/products?Limit=10";
-        List<Product> myproducts = new List<Product>();
+        private const string apiUrl = "https://dummyjson.com/products?Limit=40";
+        List<Product> myproducts = new  List<Product>();
         public ProductService() {
          //   GetProductAsync();
         
